@@ -10,7 +10,7 @@ ESLINT := $(shell which eslint)
 MINIFIER := cat
 JS_CALLS_REMOVE := BOOMR\.(debug|info|warn|error)\s*\(.*?\)\s*;
 
-all: boomerang-$(VERSION).$(DATE).js
+all: boomerang.min.js
 
 usage:
 	echo "Create a release version of boomerang:"
